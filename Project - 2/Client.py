@@ -18,6 +18,9 @@ class Client:
     def address(self):  # get _address
         return self._address
 
+    def address1(self):  # get _address
+        return self._address
+
     def address(self, newValue):  # set new address
         self._address = newValue
 
